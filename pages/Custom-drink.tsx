@@ -61,11 +61,19 @@ export default function CustomDrink() {
           <form>
             <div className="mb-1.5">
               <label>ベースを入力してください</label>：
-              <input type="text" placeholder="ベースを入力" />
+              <input
+                type="text"
+                placeholder="ベースを入力"
+                className="outline-none"
+              />
             </div>
             <div className="mb-1.5">
               <label>トッピングを入力してください</label>：
-              <input type="text" placeholder="トッピングを入力" />
+              <input
+                type="text"
+                placeholder="トッピングを入力"
+                className="outline-none"
+              />
             </div>
             <div className="flex border-t border-gray-600 border-solid p-5 justify-center">
               <div className="mr-5">
